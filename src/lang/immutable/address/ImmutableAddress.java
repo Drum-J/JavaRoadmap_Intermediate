@@ -1,8 +1,8 @@
 package lang.immutable.address;
 
 /**
- * 이렇게 모든 필드가 final 이고
- * getter 와 toString이 있으면 IDE가 record 클래스로 바꾸라고 알려준다.
+ * 이렇게 모든 필드가 final이고 getter 메서드가 존재하면
+ * IDE가 record 클래스로 바꾸라고 알려준다.
  */
 public class ImmutableAddress {
     private final String value;
