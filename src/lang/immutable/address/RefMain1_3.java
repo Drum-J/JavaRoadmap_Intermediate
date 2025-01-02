@@ -9,7 +9,8 @@ public class RefMain1_3 {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        change(b,"대구"); //메서드만 보고 사이드 이펙트가 발생하는지 파악하기 어렵다.
+        //change() 메서드 내부 동작을 모르면 사이드 이펙트가 어디서 발생하는지 파악하기 어렵다.
+        change(b,"대구");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
     }
