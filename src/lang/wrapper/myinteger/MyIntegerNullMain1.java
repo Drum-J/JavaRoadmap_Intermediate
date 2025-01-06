@@ -1,4 +1,4 @@
-package lang.wrapper;
+package lang.wrapper.myinteger;
 
 public class MyIntegerNullMain1 {
     public static void main(String[] args) {

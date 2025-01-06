@@ -1,4 +1,4 @@
-package lang.wrapper;
+package lang.wrapper.myinteger;
 
 public class MyIntegerMethodMain0 {
     public static void main(String[] args) {

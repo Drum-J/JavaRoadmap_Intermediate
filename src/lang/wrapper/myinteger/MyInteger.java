@@ -1,4 +1,4 @@
-package lang.wrapper;
+package lang.wrapper.myinteger;
 
 public class MyInteger {
     private final int value;
