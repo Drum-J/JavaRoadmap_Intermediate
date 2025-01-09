@@ -1,4 +1,4 @@
-package nested.test;
+package nested.test.ex1;
 
 /**
  * 정적 중첩 클래스를 완성하라

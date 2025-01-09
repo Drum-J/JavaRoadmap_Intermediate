@@ -1,4 +1,4 @@
-package nested.test;
+package nested.test.ex1;
 
 /**
  * 내부 클래스를 완성하라

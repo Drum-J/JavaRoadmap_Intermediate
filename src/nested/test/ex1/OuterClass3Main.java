@@ -1,4 +1,4 @@
-package nested.test;
+package nested.test.ex1;
 
 public class OuterClass3Main {
     public static void main(String[] args) {
