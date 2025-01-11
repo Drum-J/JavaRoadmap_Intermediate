@@ -13,7 +13,7 @@ public class MainV4 {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
              BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out))
         ) {
-            NetworkServiceV4 networkService = new NetworkServiceV4();
+            NetworkServiceV5 networkService = new NetworkServiceV5();
 
             while (true) {
                 writer.write("전송할 문자: ");
