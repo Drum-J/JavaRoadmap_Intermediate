@@ -1,7 +1,5 @@
 package exception.ex3;
 
-import exception.ex2.NetworkClientExceptionV2;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -13,7 +11,7 @@ public class MainV3 {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
              BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out))
         ) {
-            NetworkServiceV3_1 networkService = new NetworkServiceV3_1();
+            NetworkServiceV3_2 networkService = new NetworkServiceV3_2();
 
             while (true) {
                 writer.write("전송할 문자: ");
