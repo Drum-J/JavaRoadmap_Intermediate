@@ -11,7 +11,7 @@ public class MainV2 {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
              BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out))
         ) {
-            NetworkServiceV2_2 networkService = new NetworkServiceV2_2();
+            NetworkServiceV2_3 networkService = new NetworkServiceV2_3();
 
             while (true) {
                 writer.write("전송할 문자: ");
